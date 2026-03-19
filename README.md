@@ -60,9 +60,9 @@ Este proyecto modela un flujo basico de inventario y ventas:
 
 - [Referencia API](docs/API_REFERENCE.md)
 - [Arquitectura y modelo de datos](docs/ARCHITECTURE.md)
-- [PRD de autenticacion](docs/prd/AUTH_PRD.md)
-- [PRD de productos](docs/prd/PRODUCTS_PRD.md)
-- [PRD de ventas](docs/prd/SALES_PRD.md)
+- [PRD de autenticacion](prd/AUTH_PRD.md)
+- [PRD de productos](prd/PRODUCTS_PRD.md)
+- [PRD de ventas](prd/SALES_PRD.md)
 
 ## Estructura del proyecto
 
@@ -129,4 +129,3 @@ Con la app corriendo:
 - la venta exige al menos un detalle
 - al crear o actualizar una venta se valida stock
 - al eliminar una venta se restaura el stock de sus productos
-
